@@ -33,3 +33,6 @@ else if (age >= 11 && age <65) {
 else {
     console.log("INVALID AGE")
 }
+
+const gameBoard = [['X', 'O', 'X'], ['O', null, 'X'], ['O', 'O', 'X']]
+
