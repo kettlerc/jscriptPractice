@@ -62,3 +62,8 @@ const comments = [
     text : 'hahaha',
     votes : 38}
 ]
+
+//Creating For Loops
+for (let i = 25; i >= 0; i -= 5){
+    console.log(i);
+}
