@@ -67,3 +67,12 @@ const comments = [
 for (let i = 25; i >= 0; i -= 5){
     console.log(i);
 }
+
+//Loops and Arrays
+const people = ["Scooby", "Velma", "Daphne", "Shaggy", "Fred"]; //DONT TOUCH THIS LINE!
+
+// WRITE YOUR LOOP BELOW THIS LINE:
+
+for (let i = 0; i < people.length; i++){
+    console.log(people[i].toUpperCase());
+}
