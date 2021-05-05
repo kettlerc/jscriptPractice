@@ -89,3 +89,18 @@ for (let i = 0; i < seatingChart.length; i++) {
         console.log(row[j])
     }
 }
+
+//While Loop
+let count = 0;
+while (count < 10) {
+    count++;
+    console.log(count)
+}
+
+
+const SECRET = 'BabyHippo';
+let guess = prompt('enter the secret code');
+while (guess !== SECRET) {
+    guess = prompt('enter the secret code');
+}
+console.log('You got the secret!');
